@@ -6,8 +6,8 @@ public class FahrenheitToCelsius {
 
         System.out.println("Choose the Farenheit amount to convert to Celsius");
         int degrees = sc.nextInt();
-        double resultConverted = convertFarenheit(degrees);
-        System.out.println("the resulted value was" + resultConverted);
+        double result  = convertFarenheit(degrees);
+        System.out.println("the resulted value was" + result);
 
     }
 
